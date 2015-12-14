@@ -1,0 +1,45 @@
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by file type specific settings.
+{
+    // Set Inconsolata as the default font
+    "font_face": "Inconsolata",
+
+    // Set default font size
+    "font_size": 11,
+
+    // Set theme for Sublime Text to Soda Dark
+    "theme": "Soda Dark 3.sublime-theme",
+
+    // Update Soda Dark theme to use default tab style
+    "soda_classic_tabs": true,
+
+    // Update Soda Dark theme to use Soda folder icons
+    "soda_folder_icons": true,
+
+    // Display code fold tag
+    "fade_fold_buttons": false,
+
+    // Add highlight to tabs with modifications
+    "highlight_modified_tabs": true,
+
+    // Ensure Sublime Text prompts confirmation for exit with existing changes
+    "hot_exit": false,
+
+    // Remember open files from previous application run
+    "remember_open_files": true,
+
+    // Add new line at end of files
+    "ensure_newline_at_eof_on_save": true,
+
+    // Remove trailing white spaces
+    "trim_trailing_white_space_on_save": true,
+
+    // Use spaces instead of tabs
+    "translate_tabs_to_spaces": true,
+
+    // Ignored Packages
+    "ignored_packages":
+    [
+        "Vintage"
+    ]
+}
